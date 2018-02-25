@@ -27,14 +27,5 @@ function dec(a){
 }
 
 function makeInt(a){
-  var x=a
-  if (parseInt(x)===NaN){
-    true;
-  }
-  else if((parseInt(x/10)===NaN)===false){
-    return 0
-  }
-  else{
-  return parseInt(x)
-  }
+ 
 }
